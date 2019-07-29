@@ -6,9 +6,9 @@ const knex = require('knex');
 const bcrypt = require('bcrypt');
 // Modules
 const register = require('./Controllers/register');
-const SignIn = require('./Controllers/SignIn')
-const profile = require('./Controllers/profile')
-const imageCounter = require('./Controllers/imageCounter')
+const SignIn = require('./Controllers/signin');
+const profile = require('./Controllers/profile');
+const imageCounter = require('./Controllers/imageCounter');
 
 app.use(bodyParser.json());
 app.use(cors());
