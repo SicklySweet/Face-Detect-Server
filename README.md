@@ -1,2 +1,6 @@
 # Face-Detect-Server
-Backend for Face Detect App
+Backend for Face Detect App.
+
+Built using Node.js, express, and Clarifai's Face Detection Model API.
+
+7/22/2019
